@@ -45,10 +45,11 @@ jobs:
             echo "Unable to determine packager manager"
             exit 1
           fi
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v1
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
-          bun-version: 1.0.0
+          node-version: '20'
+          cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: Setup Pages
         uses: actions/configure-pages@v2
         with:
