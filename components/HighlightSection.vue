@@ -23,6 +23,14 @@ const cards = [
   }
 ]
 
+const loopCards = computed(() => {
+  let localcards = []
+  for (let i = 1; i < cards.length -1; i++) {
+    localcards.push(cards[i])
+  }
+  return localcards
+});
+
 </script>
 
 <template>
@@ -32,8 +40,12 @@ const cards = [
       <h1 class="text-green-500 ml-1 font-semibold text-xl">easier.</h1>
     </div>
     <div class="flex flex-row max-w-screen-xl my-8 mx-auto">
-      <HighlightCard v-for="card in cards" class="mx-4 flex-1" :icon="card.icon" :title="card.title"
+      <HighlightCard class="flex-1 mr-4" :icon="cards[0].icon" :title="cards[0].title"
+                     :text="cards[0].text"></HighlightCard>
+      <HighlightCard v-for="card in loopCards" class="flex-1 mx-4" :icon="card.icon" :title="card.title"
                      :text="card.text"></HighlightCard>
+      <HighlightCard class="flex-1 ml-4" :icon="cards[cards.length -1].icon" :title="cards[cards.length -1].title"
+                     :text="cards[cards.length -1].text"></HighlightCard>
     </div>
   </div>
 </template>

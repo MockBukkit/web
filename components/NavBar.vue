@@ -5,7 +5,7 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 
 <template>
   <nav>
-    <div class="max-w-screen-xl container mx-auto flex flex-wrap items-center justify-between mx-auto p-4 max-md:flex-col">
+    <div class="max-w-screen-xl container mx-auto flex flex-wrap items-center justify-between mx-auto pt-4 max-md:flex-col">
       <NuxtLink to="/" class="flex max-md:flex-col max-md:mx-auto">
         <img src="~/assets/mockbukkit_logo.png" alt="logo" class="w-1/6 h-auto max-md:mx-auto flex">
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white ml-2">Mockbukkit</span>
