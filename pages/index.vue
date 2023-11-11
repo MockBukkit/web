@@ -1,8 +1,6 @@
 <template>
-  <NavBar></NavBar>
   <CatchSection></CatchSection>
   <HighlightSection></HighlightSection>
-  <Footer></Footer>
 </template>
 
 <style>

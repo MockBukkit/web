@@ -15,6 +15,8 @@ const props = defineProps({
     required: true
   }
 })
+
+
 </script>
 
 <template>
@@ -26,7 +28,3 @@ const props = defineProps({
     <p class="text-white p-4 items-center text-center">{{text}}</p>
   </div>
 </template>
-
-<style scoped>
-
-</style>

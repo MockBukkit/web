@@ -49,7 +49,3 @@ const loopCards = computed(() => {
     </div>
   </div>
 </template>
-
-<style scoped>
-
-</style>

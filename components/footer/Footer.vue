@@ -55,14 +55,10 @@ const footer_categories = [
                       :links="category.links"></FooterCategory>
     </div>
     <div class="flex flex-row py-8 justify-between">
-      <img src="~/assets/logo.png" alt="Full Logo" class="w-1/6 h-auto">
+      <img src="../../assets/logo.png" alt="Full Logo" class="w-1/6 h-auto">
       <div>
         <p class="text-neutral-400 text-sm">© 2023 The Mockbukkit Team. All rights reserved.</p>
       </div>
     </div>
   </div>
 </template>
-
-<style scoped>
-
-</style>

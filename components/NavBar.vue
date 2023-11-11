@@ -19,10 +19,10 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:border-gray-700">
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-green-500 md:p-0 dark:text-white md:dark:text-green-500" aria-current="page">Home</a>
+            <NuxtLink to="/" active-class="text-green-500" class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 dark:text-white " aria-current-value="page">Home</NuxtLink>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Team</a>
+            <NuxtLink to="/team" active-class="text-green-500" class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 dark:text-white" aria-current-value="page">Team</NuxtLink>
           </li>
           <li>
             <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Download</a>
@@ -48,7 +48,3 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
     </div>
   </nav>
 </template>
-
-<style scoped>
-
-</style>
