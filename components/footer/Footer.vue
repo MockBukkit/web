@@ -5,8 +5,8 @@ const footer_categories = [
     title: "Documentation",
     links: [
       {
-        name: "Getting Started",
-        url: "/docs/getting-started"
+        name: "Documentation",
+        url: "https://mockbukkit.readthedocs.io/en/v1.20/?badge=v1.20"
       },
       {
         name: "Javadocs",

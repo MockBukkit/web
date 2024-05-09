@@ -39,12 +39,12 @@ const loopCards = computed(() => {
       <h1 class="text-white font-semibold font text-xl">Make your development life </h1>
       <h1 class="text-green-500 ml-1 font-semibold text-xl">easier.</h1>
     </div>
-    <div class="flex flex-row max-w-screen-xl my-8 mx-auto">
-      <HighlightCard class="flex-1 mr-4" :icon="cards[0].icon" :title="cards[0].title"
+    <div class="flex flex-row max-w-screen-xl my-8 mx-auto max-md:flex-col">
+      <HighlightCard class="flex-1 mr-4 max-md:ml-4 my-4" :icon="cards[0].icon" :title="cards[0].title"
                      :text="cards[0].text"></HighlightCard>
-      <HighlightCard v-for="card in loopCards" class="flex-1 mx-4" :icon="card.icon" :title="card.title"
+      <HighlightCard v-for="card in loopCards" class="flex-1 mx-4 max-md:mx-4 my-4" :icon="card.icon" :title="card.title"
                      :text="card.text"></HighlightCard>
-      <HighlightCard class="flex-1 ml-4" :icon="cards[cards.length -1].icon" :title="cards[cards.length -1].title"
+      <HighlightCard class="flex-1 ml-4 max-md:mr-4 my-4" :icon="cards[cards.length -1].icon" :title="cards[cards.length -1].title"
                      :text="cards[cards.length -1].text"></HighlightCard>
     </div>
   </div>

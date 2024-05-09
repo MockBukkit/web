@@ -46,7 +46,7 @@ if (data.value != null) {
 <template>
   <div class="bg-neutral-800 p-4">
     <h1 class="text-white font-bold text-3xl text-center py-4">Contributors</h1>
-    <div class="grid grid-cols-8 gap-4 max-w-screen-xl mx-auto py-4 ">
+    <div class="grid grid-cols-8 gap-4 max-w-screen-xl mx-auto pt-4 pb-8 ">
       <a v-for="contributor in contributors" :href="contributor.html_url" target="_blank">
         <img :src="contributor.avatar_url"
              class="mx-auto max-w-screen-xl rounded-full w-20 h-auto hover:scale-105 transition ease-in-out duration-200 shadow-xl"
