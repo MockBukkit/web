@@ -50,14 +50,14 @@ const footer_categories = [
 
 <template>
   <div class="max-w-screen-xl flex flex-col mx-auto divide-y divide-neutral-500">
-    <div class="flex flex-row max-w-screen-xl">
+    <div class="flex flex-row max-md:flex-col max-w-screen-xl">
       <FooterCategory v-for="category in footer_categories" :title="category.title"
                       :links="category.links"></FooterCategory>
     </div>
-    <div class="flex flex-row py-8 justify-between">
-      <img src="../../assets/logo.png" alt="Full Logo" class="w-1/6 h-auto">
+    <div class="flex flex-row max-md:flex-col py-8 max-md:py-4 justify-between">
+      <img src="../../assets/logo.png" alt="Full Logo" class="w-1/6 h-auto max-md:my-4 max-md:w-2/3 max-md:mx-auto">
       <div>
-        <p class="text-neutral-400 text-sm">© 2023 The Mockbukkit Team. All rights reserved.</p>
+        <p class="text-neutral-400 max-md:text-center text-sm">© 2023-2024 The Mockbukkit Team. All rights reserved.</p>
       </div>
     </div>
   </div>
