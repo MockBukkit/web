@@ -43,7 +43,7 @@ const teamMembers = [
       <h1 class="text-white font-bold text-3xl mr-2">Our</h1>
       <h1 class="text-green-500 font-bold text-3xl">Team</h1>
     </div>
-    <div class="grid grid-cols-5 gap-6" >
+    <div class="grid max-md:grid-rows-5 lg:grid-cols-5  gap-6" >
       <TeamCard v-for="member in teamMembers" :name="member.name" :role="member.role" :image="member.image" :github="member.github"></TeamCard>
     </div>
   </div>

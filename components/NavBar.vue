@@ -38,7 +38,7 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
             </NuxtLink>
           </li>
           <li>
-            <a href="https://mockbukkit.readthedocs.io/en/v1.20"
+            <a target="_blank" href="https://mockbukkit.readthedocs.io/en/v1.20"
                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Docs</a>
           </li>
           <li>

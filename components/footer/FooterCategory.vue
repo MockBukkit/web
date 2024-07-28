@@ -19,7 +19,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="my-8 max-md:my-2 mx-40 max-md:mx-auto max-md:text-center">
+  <div class="my-8 max-md:my-2 mx-40 max-md:mx-auto text-center">
     <h1 class="text-white font-bold my-5">{{ title }}</h1>
     <ul>
       <li v-for="link in links" :key="link.name">

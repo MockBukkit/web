@@ -27,30 +27,13 @@ const footer_categories = [
       }
     ]
   },
-  {
-    title: "Legal",
-    links: [
-      {
-        name: "Privacy Policy",
-        url: "/legal/privacy-policy"
-      },
-      {
-        name: "Terms of Service",
-        url: "/legal/terms-of-service"
-      },
-      {
-        name: "Community Guidelines",
-        url: "/legal/community-guidelines"
-      }
-    ]
-  }
 ];
 
 </script>
 
 <template>
   <div class="max-w-screen-xl flex flex-col mx-auto divide-y divide-neutral-500">
-    <div class="flex flex-row max-md:flex-col max-w-screen-xl">
+    <div class="mx-auto flex flex-row max-md:flex-col max-w-screen-xl">
       <FooterCategory v-for="category in footer_categories" :title="category.title"
                       :links="category.links"></FooterCategory>
     </div>
