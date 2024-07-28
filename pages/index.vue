@@ -1,10 +1,10 @@
 <template>
-  <CatchSection></CatchSection>
-  <HighlightSection></HighlightSection>
+    <CatchSection></CatchSection>
+    <HighlightSection></HighlightSection>
 </template>
 
 <style>
 body {
-  background-color: #111111;
+    background-color: #111111;
 }
 </style>

@@ -1,26 +1,25 @@
 <script setup lang="ts">
-
-import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 const props = defineProps({
-  name: String,
-  role: String,
-  image: String,
-  github: String
+    name: String,
+    role: String,
+    image: String,
+    github: String,
 });
-
 </script>
 
 <template>
-  <div class="rounded mx-auto max-md:mx-6 p-2 my-2 bg-white text-center bg-gradient-to-b from-green-800 to-green-700 hover:scale-105 transition ease-in-out duration-200 shadow-xl">
-    <img class="rounded-full w-1/2 max-md:w-1/4 mx-auto mt-4 shadow-xl" :src="image" alt="pic">
-    <h1 class="text-white font-bold text-lg mt-2 ">{{name}}</h1>
-    <h1 class="text-neutral-900">{{role}}</h1>
-    <a :href="github" target="_blank"><font-awesome-icon class="text-3xl text-white mt-5" icon="fa-brands fa-github"/></a>
-  </div>
-
+    <div
+        class="mx-auto my-2 rounded bg-white bg-gradient-to-b from-green-800 to-green-700 p-2 text-center shadow-xl transition duration-200 ease-in-out hover:scale-105 max-md:mx-6"
+    >
+        <img class="mx-auto mt-4 w-1/2 rounded-full shadow-xl max-md:w-1/4" :src="image" alt="pic" />
+        <h1 class="mt-2 text-lg font-bold text-white">{{ name }}</h1>
+        <h1 class="text-neutral-900">{{ role }}</h1>
+        <a :href="github" target="_blank"
+            ><font-awesome-icon class="mt-5 text-3xl text-white" icon="fa-brands fa-github"
+        /></a>
+    </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
