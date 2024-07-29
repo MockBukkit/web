@@ -15,6 +15,7 @@ export default defineNuxtConfig({
                     href: "favicon.ico",
                 },
             ],
+            title: "Mockbukkit"
         },
     },
 
