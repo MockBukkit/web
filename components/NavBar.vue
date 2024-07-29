@@ -68,7 +68,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://discord.gg/s4cWYgsFaV" target="_blank">
+                        <a href="https://discord.gg/Xunsn6D8MB" target="_blank">
                             <font-awesome-icon
                                 icon="fa-brands fa-discord"
                                 class="text-2xl text-white md:hover:cursor-pointer md:hover:text-green-500"
@@ -130,7 +130,7 @@
                                 </a>
                             </li>
                             <li class="mb-8 flex ">
-                                <a class="flex-1 ml-4" href="https://discord.gg/s4cWYgsFaV" target="_blank">
+                                <a class="flex-1 ml-4" href="https://discord.gg/Xunsn6D8MB" target="_blank">
                                     <font-awesome-icon
                                         icon="fa-brands fa-discord"
                                         class="text-2xl text-white md:hover:cursor-pointer md:hover:text-green-500"
