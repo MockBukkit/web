@@ -26,6 +26,23 @@ const footer_categories = [
             },
         ],
     },
+    {
+        title: "Legal",
+        links: [
+            {
+                name: "Privacy Policy",
+                url: "/privacy",
+            },
+            {
+                name: "Cookie Policy",
+                url: "/cookies",
+            },
+            {
+                name: "Legal Notice",
+                url: "/legal",
+            }
+        ],
+    }
 ];
 </script>
 
