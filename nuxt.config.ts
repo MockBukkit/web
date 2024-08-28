@@ -31,6 +31,10 @@ export default defineNuxtConfig({
                     type: "image/x-icon",
                     href: "favicon.ico",
                 },
+                {
+                    rel: "canonical",
+                    href: "https://mockbukkit.org"
+                },
             ],
             title: "MockBukkit | Comprehensive Unit Testing for Minecraft Plugins",
             meta: [
