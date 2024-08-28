@@ -1,10 +1,24 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     devtools: { enabled: true },
-    modules: [
-        "@nuxtjs/tailwindcss",
-        "@vueuse/nuxt"
-    ],
+    modules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt", "@nuxtjs/robots", "@nuxtjs/sitemap", "nuxt-schema-org"],
+
+    site: {
+        url: "https://mockbukkit.org",
+        name: "Mockbukkit"
+    },
+
+    schemaOrg: {
+        identity: {
+            type: 'Organization',
+            name: 'Mockbukkit',
+            url: 'https://mockbukkit.org',
+            logo: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
+            sameAs: [
+                "https://github.com/MockBukkit"
+            ]
+        }
+    },
 
     app: {
         head: {
@@ -15,7 +29,10 @@ export default defineNuxtConfig({
                     href: "favicon.ico",
                 },
             ],
-            title: "Mockbukkit"
+            title: "Mockbukkit",
+            meta: [
+                {name: "description", content:"Mockbukkit is a Unit Testing Framework for Minecraft Servers"}
+            ]
         },
     },
 
@@ -30,5 +47,10 @@ export default defineNuxtConfig({
         ],
     },
 
+    robots: {
+        allow: [
+            "/"
+        ]
+    },
     compatibilityDate: "2024-07-27",
 });

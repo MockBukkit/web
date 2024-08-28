@@ -1,4 +1,14 @@
 <script setup lang="ts">
+useSeoMeta({
+    title: 'Mockbukkit | Privacy Policy',
+    description: 'Mockbukkit is a mock Minecraft server for testing and prototyping Minecraft plugins.',
+    ogTitle: 'Mockbukkit | Privacy Policy',
+    ogDescription: 'Mockbukkit is a mock Minecraft server for testing and prototyping Minecraft plugins.',
+    ogSiteName: 'Mockbukkit',
+    ogUrl: 'https://mockbukkit.org',
+    ogType: 'website',
+    ogImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
+})
 </script>
 
 <template>

@@ -11,8 +11,11 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/robots": "^4.1.3",
+    "@nuxtjs/sitemap": "6.0.0-beta.4",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "nuxt": "^3.12.4",
+    "nuxt-schema-org": "^3.3.9",
     "vue": "^3.4.34",
     "vue-router": "^4.4.0"
   },

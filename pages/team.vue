@@ -1,6 +1,17 @@
 <script setup lang="ts">
 import ContributorsSection from "~/components/team/ContributorsSection.vue";
 
+useSeoMeta({
+    title: 'Mockbukkit | Team',
+    description: 'Mockbukkit is a mock Minecraft server for testing and prototyping Minecraft plugins.',
+    ogTitle: 'Mockbukkit | Team',
+    ogDescription: 'Mockbukkit is a mock Minecraft server for testing and prototyping Minecraft plugins.',
+    ogSiteName: 'Mockbukkit',
+    ogUrl: 'https://mockbukkit.org',
+    ogType: 'website',
+    ogImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
+})
+
 const teamMembers = [
     {
         name: "Seeseemelk",
