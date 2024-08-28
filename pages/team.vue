@@ -2,16 +2,16 @@
 import ContributorsSection from "~/components/team/ContributorsSection.vue";
 
 useSeoMeta({
-    title: 'Mockbukkit | Team',
-    description: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
-    ogTitle: 'Mockbukkit | Team',
-    ogDescription: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
+    title: 'Mockbukkit | Meet Our Team Members',
+    description: 'MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.',
+    ogTitle: 'Mockbukkit | Meet Our Team Members',
+    ogDescription: 'MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.',
     ogSiteName: 'Mockbukkit',
     ogUrl: 'https://mockbukkit.org',
     ogType: 'website',
     ogImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
-    twitterTitle: 'Mockbukkit | Team',
-    twitterDescription: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
+    twitterTitle: 'Mockbukkit | Meet Our Team Members',
+    twitterDescription: 'MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.',
     twitterImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
     twitterCard: 'summary',
 })
@@ -47,6 +47,12 @@ const teamMembers = [
         image: "https://avatars.githubusercontent.com/u/3967898?v=4",
         github: "https://github.com/thebusybiscuit",
     },
+    {
+        name: "4everTheOne",
+        role: "Maintainer",
+        image: "https://avatars.githubusercontent.com/u/5434488?v=4",
+        github: "https://github.com/4everTheOne",
+    },
 ];
 </script>
 
@@ -56,7 +62,7 @@ const teamMembers = [
             <h1 class="mr-2 text-3xl font-bold text-white">Our</h1>
             <h2 class="text-3xl font-bold text-green-500">Team</h2>
         </div>
-        <div class="grid gap-6 max-md:grid-rows-5 lg:grid-cols-5">
+        <div class="grid gap-6 max-md:grid-rows-3 lg:grid-cols-3">
             <TeamCard
                 v-for="member in teamMembers"
                 :name="member.name"

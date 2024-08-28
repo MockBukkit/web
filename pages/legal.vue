@@ -1,15 +1,15 @@
 <script setup lang="ts">
 useSeoMeta({
-    title: 'Mockbukkit | Legal Notice',
-    description: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
-    ogTitle: 'Mockbukkit | Legal Notice',
-    ogDescription: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
+    title: 'MockBukkit | Legal Notice and Compliance Information',
+    description: 'MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.',
+    ogTitle: 'MockBukkit | Legal Notice and Compliance Information',
+    ogDescription: 'MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.',
     ogSiteName: 'Mockbukkit',
     ogUrl: 'https://mockbukkit.org',
     ogType: 'website',
     ogImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
-    twitterTitle: 'Mockbukkit | Legal Notice',
-    twitterDescription: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
+    twitterTitle: 'MockBukkit | Legal Notice and Compliance Information',
+    twitterDescription: 'MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.',
     twitterImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
     twitterCard: 'summary',
 })

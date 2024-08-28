@@ -23,7 +23,7 @@
                 >
                     Downloads
                 </button>
-                <a href="https://mockbukkit.readthedocs.io/en/v1.21" target="_blank" rel="noopener noreferrer">
+                <a href="https://mockbukkit.readthedocs.io/en/v1.21" target="_blank" rel="noopener noreferrer" title="Documentation">
                     <button
                         v-if="false"
                         class="mx-4 rounded-md border-2 border-gray-600 px-5 py-1 transition duration-200 ease-in-out hover:scale-105"
@@ -31,7 +31,7 @@
                         Documentation
                     </button>
                 </a>
-                <a href="https://mockbukkit.readthedocs.io/en/v1.21" target="_blank" rel="noopener noreferrer">
+                <a href="https://mockbukkit.readthedocs.io/en/v1.21" target="_blank" rel="noopener noreferrer" title="Documentation">
                     <button
                         v-if="true"
                         class="rounded-md border-2 border-gray-600 px-5 py-1 transition duration-200 ease-in-out hover:scale-105"

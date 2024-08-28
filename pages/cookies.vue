@@ -1,15 +1,15 @@
 <script setup lang="ts">
 useSeoMeta({
-    title: 'Mockbukkit | Cookie Policy',
-    description: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
-    ogTitle: 'Mockbukkit | Cookie Policy',
-    ogDescription: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
+    title: 'MockBukkit | Understanding Our Cookie Policy and Usage',
+    description: 'MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.',
+    ogTitle: 'MockBukkit | Understanding Our Cookie Policy and Usage',
+    ogDescription: 'MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.',
     ogSiteName: 'Mockbukkit',
     ogUrl: 'https://mockbukkit.org',
     ogType: 'website',
     ogImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
-    twitterTitle: 'Mockbukkit | Cookie Policy',
-    twitterDescription: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
+    twitterTitle: 'MockBukkit | Understanding Our Cookie Policy and Usage',
+    twitterDescription: 'MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.',
     twitterImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
     twitterCard: 'summary',
 })

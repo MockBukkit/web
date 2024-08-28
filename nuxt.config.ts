@@ -22,6 +22,9 @@ export default defineNuxtConfig({
 
     app: {
         head: {
+            htmlAttrs: {
+                lang: "en"
+            },
             link: [
                 {
                     rel: "icon",
@@ -29,11 +32,11 @@ export default defineNuxtConfig({
                     href: "favicon.ico",
                 },
             ],
-            title: "Mockbukkit",
+            title: "MockBukkit | Comprehensive Unit Testing for Minecraft Plugins",
             meta: [
                 {
                     name: "description",
-                    content: "MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined."
+                    content: "MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools."
                 }
             ]
         },

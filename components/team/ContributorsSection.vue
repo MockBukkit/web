@@ -30,6 +30,7 @@ let filterOut = [
     "thelooter",
     "Insprill",
     "Thorinwasher",
+    "4everTheOne",
     "renovate[bot]",
     "renovate-bot",
 ];

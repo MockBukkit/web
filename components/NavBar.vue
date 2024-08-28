@@ -31,6 +31,7 @@
                             active-class="text-green-500"
                             class="block rounded py-2 pl-3 pr-4 text-white md:bg-transparent md:p-0 dark:text-white md:hover:text-green-500"
                             aria-current-value="page"
+                            title="Home"
                         >Home
                         </NuxtLink>
                     </li>
@@ -40,6 +41,7 @@
                             active-class="text-green-500"
                             class="block rounded py-2 pl-3 pr-4 text-white md:bg-transparent md:p-0 dark:text-white md:hover:text-green-500"
                             aria-current-value="page"
+                            title="Team"
                         >Team
                         </NuxtLink>
                     </li>
@@ -48,6 +50,7 @@
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://mockbukkit.readthedocs.io/en/v1.21"
+                            title="Docs"
                             class="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-green-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-green-500"
                         >Docs</a
                         >
@@ -57,12 +60,13 @@
                             href="https://github.com/MockBukkit/MockBukkit/blob/v1.21/CONTRIBUTING.md"
                             target="_blank"
                             rel="noopener noreferrer"
+                            title="Contribute"
                             class="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-green-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-green-500"
                         >Contribute</a
                         >
                     </li>
                     <li>
-                        <a href="https://github.com/MockBukkit/MockBukkit" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/MockBukkit/MockBukkit" target="_blank" rel="noopener noreferrer" title="GitHub">
                             <font-awesome-icon
                                 icon="fa-brands fa-github"
                                 class="text-2xl text-white md:hover:cursor-pointer md:hover:text-green-500"
@@ -70,7 +74,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://discord.gg/Xunsn6D8MB" target="_blank" rel="noopener noreferrer">
+                        <a href="https://discord.gg/Xunsn6D8MB" target="_blank" rel="noopener noreferrer" title="Discord">
                             <font-awesome-icon
                                 icon="fa-brands fa-discord"
                                 class="text-2xl text-white md:hover:cursor-pointer md:hover:text-green-500"
@@ -113,6 +117,7 @@
                                 <a class="block ml-4 text-sm font-semibold text-white hover:bg-blue-50 rounded"
                                    href="https://mockbukkit.readthedocs.io/en/v1.21"
                                    target="_blank"
+                                   title="Docs"
                                    rel="noopener noreferrer">
                                     Docs
                                 </a>
@@ -121,12 +126,13 @@
                                 <a class="block ml-4 text-sm font-semibold text-white hover:bg-blue-50 rounded"
                                    href="https://github.com/MockBukkit/MockBukkit/blob/v1.21/CONTRIBUTING.md"
                                    target="_blank"
+                                   title="Contribute"
                                    rel="noopener noreferrer">
                                     Contribute
                                 </a>
                             </li>
                             <li class="mb-8 flex ">
-                                <a class="flex-1 ml-4" href="https://github.com/MockBukkit/MockBukkit" target="_blank" rel="noopener noreferrer">
+                                <a class="flex-1 ml-4" href="https://github.com/MockBukkit/MockBukkit" target="_blank" rel="noopener noreferrer" title="GitHub">
                                     <font-awesome-icon
                                         icon="fa-brands fa-github"
                                         class="text-2xl text-white md:hover:cursor-pointer md:hover:text-green-500"
@@ -134,7 +140,7 @@
                                 </a>
                             </li>
                             <li class="mb-8 flex ">
-                                <a class="flex-1 ml-4" href="https://discord.gg/Xunsn6D8MB" target="_blank" rel="noopener noreferrer">
+                                <a class="flex-1 ml-4" href="https://discord.gg/Xunsn6D8MB" target="_blank" rel="noopener noreferrer" title="Discord">
                                     <font-awesome-icon
                                         icon="fa-brands fa-discord"
                                         class="text-2xl text-white md:hover:cursor-pointer md:hover:text-green-500"

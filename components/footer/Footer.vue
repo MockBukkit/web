@@ -5,11 +5,13 @@ const footer_categories = [
         links: [
             {
                 name: "Documentation",
-                url: "https://mockbukkit.readthedocs.io/en/v1.21/?badge=v1.21",
+                url: "https://mockbukkit.readthedocs.io/en/v1.21/",
+                title: "Documentation",
             },
             {
                 name: "Javadocs",
                 url: "https://javadoc.io/doc/com.github.seeseemelk/MockBukkit-v1.21/latest/index.html",
+                title: "Javadocs",
             },
         ],
     },
@@ -19,10 +21,12 @@ const footer_categories = [
             {
                 name: "Discord",
                 url: "https://discord.gg/3QwzKZs",
+                title: "Discord",
             },
             {
                 name: "GitHub",
                 url: "https://github.com/Mockbukkit/Mockbukkit",
+                title: "GitHub",
             },
         ],
     },
@@ -32,14 +36,17 @@ const footer_categories = [
             {
                 name: "Privacy Policy",
                 url: "/privacy",
+                title: "Privacy Policy",
             },
             {
                 name: "Cookie Policy",
                 url: "/cookies",
+                title: "Cookie Policy",
             },
             {
                 name: "Legal Notice",
                 url: "/legal",
+                title: "Legal Notice",
             }
         ],
     }

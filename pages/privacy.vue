@@ -1,14 +1,14 @@
 <script setup lang="ts">
 useSeoMeta({
-    title: 'Mockbukkit | Privacy Policy',
+    title: 'Mockbukkit | Privacy Policy – Protecting Your Data',
     description: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
-    ogTitle: 'Mockbukkit | Privacy Policy',
+    ogTitle: 'Mockbukkit | Privacy Policy – Protecting Your Data',
     ogDescription: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
     ogSiteName: 'Mockbukkit',
     ogUrl: 'https://mockbukkit.org',
     ogType: 'website',
     ogImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
-    twitterTitle: 'Mockbukkit | Privacy Policy',
+    twitterTitle: 'Mockbukkit | Privacy Policy – Protecting Your Data',
     twitterDescription: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
     twitterImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
     twitterCard: 'summary',
