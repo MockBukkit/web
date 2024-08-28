@@ -8,11 +8,11 @@
             <h1 class="py-2 text-left text-5xl font-semibold max-md:py-0 max-md:text-center max-md:text-2xl">
                 Testing.
             </h1>
-            <h1
+            <h2
                 class="1 bg-gradient-to-r from-green-500 to-green-300 bg-clip-text py-2 text-left text-5xl font-semibold text-transparent max-md:text-center max-md:text-2xl"
             >
                 Simplified.
-            </h1>
+            </h2>
             <p class="text-md mx-lg:px-6 py-2 pr-20 font-medium max-lg:w-screen max-lg:pr-0 max-md:text-center">
                 Mockbukkit makes unit testing of Paper Plugins easier by providing Mocks for common features
             </p>
@@ -23,7 +23,7 @@
                 >
                     Downloads
                 </button>
-                <a href="https://mockbukkit.readthedocs.io/en/v1.21" target="_blank">
+                <a href="https://mockbukkit.readthedocs.io/en/v1.21" target="_blank" rel="noopener noreferrer">
                     <button
                         v-if="false"
                         class="mx-4 rounded-md border-2 border-gray-600 px-5 py-1 transition duration-200 ease-in-out hover:scale-105"
@@ -31,7 +31,7 @@
                         Documentation
                     </button>
                 </a>
-                <a href="https://mockbukkit.readthedocs.io/en/v1.21" target="_blank">
+                <a href="https://mockbukkit.readthedocs.io/en/v1.21" target="_blank" rel="noopener noreferrer">
                     <button
                         v-if="true"
                         class="rounded-md border-2 border-gray-600 px-5 py-1 transition duration-200 ease-in-out hover:scale-105"

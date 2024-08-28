@@ -46,6 +46,7 @@
                     <li>
                         <a
                             target="_blank"
+                            rel="noopener noreferrer"
                             href="https://mockbukkit.readthedocs.io/en/v1.21"
                             class="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-green-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-green-500"
                         >Docs</a
@@ -55,12 +56,13 @@
                         <a
                             href="https://github.com/MockBukkit/MockBukkit/blob/v1.21/CONTRIBUTING.md"
                             target="_blank"
+                            rel="noopener noreferrer"
                             class="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-green-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-green-500"
                         >Contribute</a
                         >
                     </li>
                     <li>
-                        <a href="https://github.com/MockBukkit/MockBukkit" target="_blank">
+                        <a href="https://github.com/MockBukkit/MockBukkit" target="_blank" rel="noopener noreferrer">
                             <font-awesome-icon
                                 icon="fa-brands fa-github"
                                 class="text-2xl text-white md:hover:cursor-pointer md:hover:text-green-500"
@@ -68,7 +70,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://discord.gg/Xunsn6D8MB" target="_blank">
+                        <a href="https://discord.gg/Xunsn6D8MB" target="_blank" rel="noopener noreferrer">
                             <font-awesome-icon
                                 icon="fa-brands fa-discord"
                                 class="text-2xl text-white md:hover:cursor-pointer md:hover:text-green-500"
@@ -110,19 +112,21 @@
                             <li class="mb-8">
                                 <a class="block ml-4 text-sm font-semibold text-white hover:bg-blue-50 rounded"
                                    href="https://mockbukkit.readthedocs.io/en/v1.21"
-                                   target="_blank">
+                                   target="_blank"
+                                   rel="noopener noreferrer">
                                     Docs
                                 </a>
                             </li>
                             <li class="mb-8">
                                 <a class="block ml-4 text-sm font-semibold text-white hover:bg-blue-50 rounded"
                                    href="https://github.com/MockBukkit/MockBukkit/blob/v1.21/CONTRIBUTING.md"
-                                   target="_blank">
+                                   target="_blank"
+                                   rel="noopener noreferrer">
                                     Contribute
                                 </a>
                             </li>
                             <li class="mb-8 flex ">
-                                <a class="flex-1 ml-4" href="https://github.com/MockBukkit/MockBukkit" target="_blank">
+                                <a class="flex-1 ml-4" href="https://github.com/MockBukkit/MockBukkit" target="_blank" rel="noopener noreferrer">
                                     <font-awesome-icon
                                         icon="fa-brands fa-github"
                                         class="text-2xl text-white md:hover:cursor-pointer md:hover:text-green-500"
@@ -130,7 +134,7 @@
                                 </a>
                             </li>
                             <li class="mb-8 flex ">
-                                <a class="flex-1 ml-4" href="https://discord.gg/Xunsn6D8MB" target="_blank">
+                                <a class="flex-1 ml-4" href="https://discord.gg/Xunsn6D8MB" target="_blank" rel="noopener noreferrer">
                                     <font-awesome-icon
                                         icon="fa-brands fa-discord"
                                         class="text-2xl text-white md:hover:cursor-pointer md:hover:text-green-500"

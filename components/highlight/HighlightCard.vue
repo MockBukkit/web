@@ -23,7 +23,7 @@ const props = defineProps({
     >
         <div class="mt-3 flex flex-col items-center justify-center">
             <font-awesome-icon class="mb-3 text-3xl text-white" :icon="icon" />
-            <h1 class="font-bold text-white">{{ title }}</h1>
+            <h3 class="font-bold text-white">{{ title }}</h3>
         </div>
         <p class="items-center p-4 text-center text-white">{{ text }}</p>
     </div>

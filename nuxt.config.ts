@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    devtools: { enabled: true },
+    devtools: {enabled: true},
     modules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt", "@nuxtjs/robots", "@nuxtjs/sitemap", "nuxt-schema-org"],
 
     site: {
@@ -31,7 +31,10 @@ export default defineNuxtConfig({
             ],
             title: "Mockbukkit",
             meta: [
-                {name: "description", content:"Mockbukkit is a Unit Testing Framework for Minecraft Servers"}
+                {
+                    name: "description",
+                    content: "MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined."
+                }
             ]
         },
     },
