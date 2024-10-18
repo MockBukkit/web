@@ -46,14 +46,14 @@
                         </NuxtLink>
                     </li>
                     <li>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://mockbukkit.readthedocs.io/en/v1.21"
+                        <NuxtLink
+                            to="/docs"
+                            active-class="text-green-500"
+                            class="block rounded py-2 pl-3 pr-4 text-white md:bg-transparent md:p-0 dark:text-white md:hover:text-green-500"
+                            aria-current-value="page"
                             title="Docs"
-                            class="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-green-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-green-500"
-                        >Docs</a
-                        >
+                        >Docs
+                        </NuxtLink>
                     </li>
                     <li>
                         <a
@@ -114,13 +114,10 @@
                                 </NuxtLink>
                             </li>
                             <li class="mb-8">
-                                <a class="block ml-4 text-sm font-semibold text-white hover:bg-blue-50 rounded"
-                                   href="https://mockbukkit.readthedocs.io/en/v1.21"
-                                   target="_blank"
-                                   title="Docs"
-                                   rel="noopener noreferrer">
+                                <NuxtLink active-class="text-green-500"
+                                          class="block ml-4 text-sm font-semibold text-white hover:bg-blue-50 rounded" to="/docs">
                                     Docs
-                                </a>
+                                </NuxtLink>
                             </li>
                             <li class="mb-8">
                                 <a class="block ml-4 text-sm font-semibold text-white hover:bg-blue-50 rounded"

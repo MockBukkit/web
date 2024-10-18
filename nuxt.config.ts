@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     devtools: {enabled: true},
-    modules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt", "@nuxtjs/robots", "@nuxtjs/sitemap", "nuxt-schema-org", "nuxt-posthog"],
+    modules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt", "@nuxtjs/robots", "@nuxtjs/sitemap", "nuxt-schema-org", "nuxt-posthog", "@nuxt/content"],
 
     site: {
         url: "https://mockbukkit.org",
