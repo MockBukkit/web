@@ -19,12 +19,12 @@ const props = defineProps({
 
 <template>
     <div
-        class="flex flex-col rounded-lg bg-gradient-to-b from-green-800 to-green-700 pb-10 pt-3 shadow-xl transition duration-200 ease-in-out scale-95 hover:scale-100"
+        class="flex flex-col rounded-lg bg-gradient-to-b from-green-500 to-green-400 dark:from-green-800 dark:to-green-700 pb-10 pt-3 shadow-xl transition duration-200 ease-in-out scale-95 hover:scale-100"
     >
         <div class="mt-3 flex flex-col items-center justify-center">
-            <font-awesome-icon class="mb-3 text-3xl text-white" :icon="icon" />
-            <h3 class="font-bold text-white">{{ title }}</h3>
+            <font-awesome-icon class="mb-3 text-3xl dark:text-white" :icon="icon" />
+            <h3 class="font-bold dark:text-white">{{ title }}</h3>
         </div>
-        <p class="items-center p-4 text-center text-white">{{ text }}</p>
+        <p class="items-center p-4 text-center dark:text-white">{{ text }}</p>
     </div>
 </template>

@@ -69,7 +69,7 @@ const footer_categories = [
                 class="h-auto w-1/6 max-md:mx-auto max-md:my-4 max-md:w-2/3 max-xl:ml-4"
             />
             <div>
-                <p class="text-sm text-neutral-400 max-md:text-center max-xl:mr-4">
+                <p class="text-sm text-neutral-800 dark:text-neutral-400 max-md:text-center max-xl:mr-4">
                     © 2024 The Mockbukkit Team.
                 </p>
             </div>

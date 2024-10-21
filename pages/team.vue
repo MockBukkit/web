@@ -59,7 +59,7 @@ const teamMembers = [
 <template>
     <div class="mx-auto flex max-w-screen-xl flex-col">
         <div class="my-[3rem] flex flex-row items-center justify-center">
-            <h1 class="mr-2 text-3xl font-bold text-white">Our</h1>
+            <h1 class="mr-2 text-3xl font-bold dark:text-white">Our</h1>
             <h2 class="text-3xl font-bold text-green-500">Team</h2>
         </div>
         <div class="grid gap-6 max-md:grid-rows-3 lg:grid-cols-3">
