@@ -104,7 +104,8 @@
                         <ul>
                             <li class="mb-8">
                                 <NuxtLink active-class="text-green-500"
-                                          class="block ml-4 text-sm font-semibold dark:text-white light:text-black hover:bg-blue-50 rounded" to="/">Home
+                                          class="block ml-4 text-sm font-semibold dark:text-white hover:bg-blue-50 rounded" to="/">
+                                    Home
                                 </NuxtLink>
                             </li>
                             <li class="mb-8">
