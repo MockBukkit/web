@@ -37,22 +37,22 @@ const loopCards = computed(() => {
             <h3 class="font text-xl font-semibold text-white">Make your development life</h3>
             <h3 class="ml-1 text-xl font-semibold text-green-500">easier.</h3>
         </div>
-        <div class="mx-auto my-8 flex max-w-screen-xl flex-row max-md:flex-col-lg">
+        <div class="mx-auto my-8 flex max-w-screen-xl flex-row max-lg:flex-col">
             <HighlightCard
-                class="my-4 mr-4 flex-1 max-md:ml-4"
+                class="flex-1 my-2 mr-2 max-lg:ml-2"
                 :icon="cards[0].icon"
                 :title="cards[0].title"
                 :text="cards[0].text"
             ></HighlightCard>
             <HighlightCard
                 v-for="card in loopCards"
-                class="mx-4 my-4 flex-1 max-md:mx-4"
+                class="flex-1 my-2 mx-2 "
                 :icon="card.icon"
                 :title="card.title"
                 :text="card.text"
             ></HighlightCard>
             <HighlightCard
-                class="my-4 ml-4 flex-1 max-md:mr-4"
+                class="flex-1 my-2 ml-2 max-lg:mr-2"
                 :icon="cards[cards.length - 1].icon"
                 :title="cards[cards.length - 1].title"
                 :text="cards[cards.length - 1].text"
