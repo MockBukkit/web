@@ -2,9 +2,9 @@
 
 <template>
     <div
-        class="mx-auto my-[5rem] flex w-screen max-w-screen-xl flex-1 flex-row items-center justify-center max-md:my-[2rem] max-md:mt-4 max-md:w-screen max-md:flex-col"
+        class="mx-auto my-[5rem] flex w-full max-w-screen-xl flex-1 flex-row items-center justify-center max-md:my-[2rem] max-md:mt-4 max-md:w-full max-md:flex-col"
     >
-        <div class="w-screen max-w-screen-xl text-white max-md:flex max-md:flex-col">
+        <div class="w-full max-w-screen-xl text-white max-md:flex max-md:flex-col max-xl:ml-4 max-md:ml-0">
             <h1 class="py-2 text-left text-5xl font-semibold max-md:py-0 max-md:text-center max-md:text-2xl">
                 Testing.
             </h1>
@@ -13,7 +13,7 @@
             >
                 Simplified.
             </h2>
-            <p class="text-md mx-lg:px-6 py-2 pr-20 font-medium max-lg:w-screen max-lg:pr-0 max-md:text-center">
+            <p class="text-md mx-lg:px-6 py-2 pr-20 font-medium max-lg:w-full max-lg:pr-0 max-md:text-center">
                 Mockbukkit makes unit testing of Paper Plugins easier by providing Mocks for common features
             </p>
             <div class="mt-3 flex flex-row items-center justify-start max-md:flex-col max-md:justify-center">
@@ -41,7 +41,7 @@
                 </a>
             </div>
         </div>
-        <div class="flex w-screen max-w-screen-xl justify-end">
+        <div class="flex w-full max-w-screen-xl justify-end">
             <img src="~/assets/minecraft-trees.jpg" alt="test" class="w-11/12 rounded-2xl max-md:mx-auto max-md:mt-5" />
         </div>
     </div>
