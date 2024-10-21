@@ -32,10 +32,10 @@ const loopCards = computed(() => {
 </script>
 
 <template>
-    <div class="my-8 flex w-full flex-col bg-neutral-800 py-8">
+    <div class="my-8 flex w-full flex-col bg-neutral-400 dark:bg-neutral-800 py-8">
         <div class="mx-auto flex flex-row">
-            <h3 class="font text-xl font-semibold text-white">Make your development life</h3>
-            <h3 class="ml-1 text-xl font-semibold text-green-500">easier.</h3>
+            <h3 class="font text-xl font-semibold dark:text-white">Make your development life</h3>
+            <h3 class="ml-1 text-xl font-semibold text-green-700 dark:text-green-500">easier.</h3>
         </div>
         <div class="mx-auto my-8 flex max-w-screen-xl flex-row max-lg:flex-col">
             <HighlightCard
