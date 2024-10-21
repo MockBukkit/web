@@ -20,7 +20,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="w-60 my-8 text-center max-md:mx-auto max-md:my-2">
+    <div class="w-40 my-8 text-center max-md:mx-auto max-md:my-2">
         <h2 class="my-5 font-bold text-white">{{ title }}</h2>
         <ul>
             <li v-for="link in links" :key="link.name">

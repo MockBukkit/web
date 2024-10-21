@@ -55,7 +55,7 @@ const footer_categories = [
 
 <template>
     <div class="mx-auto flex max-w-screen-xl flex-col divide-y divide-neutral-500">
-        <div class="mx-auto flex max-w-screen-xl flex-row max-md:flex-col">
+        <div class="flex max-w-screen-xl flex-row max-md:flex-col justify-between">
             <FooterCategory
                 v-for="category in footer_categories"
                 :title="category.title"
