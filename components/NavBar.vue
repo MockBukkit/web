@@ -84,8 +84,8 @@
                             </svg>
                         </button>
                     </div>
-                    <div>
-                        <ul>
+                    <div class="h-full">
+                        <ul class="h-full flex flex-wrap flex-col">
                             <li class="mb-8">
                                 <NuxtLink active-class="text-green-500"
                                     class="block ml-4 text-sm font-semibold dark:text-white hover:bg-blue-50 rounded"
@@ -114,20 +114,22 @@
                                     Contribute
                                 </a>
                             </li>
-                            <li class="mb-8 flex ">
-                                <a class="flex-1 ml-4" href="https://github.com/MockBukkit/MockBukkit" target="_blank"
-                                    rel="noopener noreferrer" title="GitHub">
-                                    <font-awesome-icon icon="fa-brands fa-github"
-                                        class="text-2xl dark:text-white md:hover:cursor-pointer md:hover:text-green-500" />
-                                </a>
-                            </li>
-                            <li class="mb-8 flex ">
-                                <a class="flex-1 ml-4" href="https://discord.gg/Xunsn6D8MB" target="_blank"
-                                    rel="noopener noreferrer" title="Discord">
-                                    <font-awesome-icon icon="fa-brands fa-discord"
-                                        class="text-2xl dark:text-white md:hover:cursor-pointer md:hover:text-green-500" />
-                                </a>
-                            </li>
+                            <ul class="flex justify-center mt-auto">
+                                <li class="mb-8 flex ">
+                                    <a class="flex-1 ml-4" href="https://github.com/MockBukkit/MockBukkit"
+                                        target="_blank" rel="noopener noreferrer" title="GitHub">
+                                        <font-awesome-icon icon="fa-brands fa-github"
+                                            class="text-2xl dark:text-white md:hover:cursor-pointer md:hover:text-green-500" />
+                                    </a>
+                                </li>
+                                <li class="mb-8 flex ">
+                                    <a class="flex-1 ml-4" href="https://discord.gg/Xunsn6D8MB" target="_blank"
+                                        rel="noopener noreferrer" title="Discord">
+                                        <font-awesome-icon icon="fa-brands fa-discord"
+                                            class="text-2xl dark:text-white md:hover:cursor-pointer md:hover:text-green-500" />
+                                    </a>
+                                </li>
+                            </ul>
                         </ul>
                     </div>
 
