@@ -4,7 +4,7 @@
     <div
         class="mx-auto my-[5rem] flex w-full max-w-screen-xl flex-1 flex-row items-center justify-center max-md:my-[2rem] max-md:mt-4 max-md:w-full max-md:flex-col"
     >
-        <div class="w-full max-w-screen-xl text-white max-md:flex max-md:flex-col max-xl:ml-4 max-md:ml-0">
+        <div class="w-full max-w-screen-xl dark:text-white max-md:flex max-md:flex-col max-xl:ml-4 max-md:ml-0">
             <h1 class="py-2 text-left text-5xl font-semibold max-md:py-0 max-md:text-center max-md:text-2xl">
                 Testing.
             </h1>

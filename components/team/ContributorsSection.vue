@@ -43,8 +43,8 @@ if (data.value != null) {
 </script>
 
 <template>
-    <div class="bg-neutral-800 p-4">
-        <h2 class="py-4 text-center text-3xl font-bold text-white">Contributors</h2>
+    <div class="bg-neutral-400 dark:bg-neutral-800 p-4">
+        <h2 class="py-4 text-center text-3xl font-bold dark:text-white">Contributors</h2>
         <div class="mx-auto grid max-w-screen-xl gap-4 pb-8 pt-4 max-md:grid-cols-3 lg:grid-cols-8">
             <a v-for="contributor in contributors" :href="contributor.html_url" target="_blank" rel="noopener noreferrer">
                 <img

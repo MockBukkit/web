@@ -16,7 +16,7 @@ useSeoMeta({
 </script>
 
 <template>
-    <div class="container max-w-screen-lg text-white mx-auto text-justify">
+    <div class="container max-w-screen-lg dark:text-white mx-auto text-justify">
         <div class="my-8">
             <h1 class="font-bold text-center text-2xl" id="cookie-policy">Cookie Policy</h1>
             <p class="text-neutral-500 text-center"><strong>Effective Date:</strong> August 3, 2024</p>

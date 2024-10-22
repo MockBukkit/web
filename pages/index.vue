@@ -7,6 +7,11 @@
 body {
     background-color: #111111;
 }
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #DDDDDD
+  }
+}
 </style>
 
 <script setup lang="ts">
