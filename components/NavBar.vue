@@ -66,9 +66,9 @@
             </div>
             <!--Mobile menu-->
             <div class="navbar-menu relative z-50" v-if="isMenuOpen">
-                <div class="navbar-backdrop fixed inset-0 bg-[#111111] opacity-25"></div>
+                <div class="navbar-backdrop fixed inset-0 bg-[#666666] dark:bg-[#111111] opacity-25"></div>
                 <nav
-                    class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-[#111111] overflow-y-auto">
+                    class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-[#666666] dark:bg-[#111111] overflow-y-auto">
                     <div class="flex items-center mb-8 ml-2">
                         <NuxtLink to="/" class="flex max-md:mx-0 ">
                             <img src="~/assets/mockbukkit_logo.png" alt="logo" class="flex h-auto w-1/6" />
