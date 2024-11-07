@@ -5,7 +5,7 @@ const footer_categories = [
         links: [
             {
                 name: "Documentation",
-                url: "https://mockbukkit.readthedocs.io/en/v1.21/",
+                url: "https://docs.mockbukkit.org",
                 title: "Documentation",
             },
             {
@@ -70,7 +70,7 @@ const footer_categories = [
             />
             <div>
                 <p class="text-sm text-neutral-800 dark:text-neutral-400 max-md:text-center max-xl:mr-4">
-                    © 2024 The Mockbukkit Team.
+                    © 2024 The MockBukkit Team.
                 </p>
             </div>
         </div>
