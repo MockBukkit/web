@@ -2,19 +2,22 @@
 import ContributorsSection from "~/components/team/ContributorsSection.vue";
 
 useSeoMeta({
-    title: 'Mockbukkit | Meet Our Team Members',
-    description: 'MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.',
-    ogTitle: 'Mockbukkit | Meet Our Team Members',
-    ogDescription: 'MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.',
-    ogSiteName: 'Mockbukkit',
-    ogUrl: 'https://mockbukkit.org',
-    ogType: 'website',
-    ogImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
-    twitterTitle: 'Mockbukkit | Meet Our Team Members',
-    twitterDescription: 'MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.',
-    twitterImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
-    twitterCard: 'summary',
-})
+    title: "Mockbukkit | Meet Our Team Members",
+    description:
+        "MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.",
+    ogTitle: "Mockbukkit | Meet Our Team Members",
+    ogDescription:
+        "MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.",
+    ogSiteName: "Mockbukkit",
+    ogUrl: "https://mockbukkit.org",
+    ogType: "website",
+    ogImage: "https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png",
+    twitterTitle: "Mockbukkit | Meet Our Team Members",
+    twitterDescription:
+        "MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.",
+    twitterImage: "https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png",
+    twitterCard: "summary",
+});
 
 const teamMembers = [
     {
@@ -63,13 +66,7 @@ const teamMembers = [
             <h2 class="text-3xl font-bold text-green-500">Team</h2>
         </div>
         <div class="grid gap-6 max-md:grid-rows-3 lg:grid-cols-3">
-            <TeamCard
-                v-for="member in teamMembers"
-                :name="member.name"
-                :role="member.role"
-                :image="member.image"
-                :github="member.github"
-            ></TeamCard>
+            <TeamCard v-for="member in teamMembers" :name="member.name" :role="member.role" :image="member.image" :github="member.github"></TeamCard>
         </div>
     </div>
     <ContributorsSection class="my-[3rem]" />

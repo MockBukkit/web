@@ -24,16 +24,7 @@ interface Contributor {
 let contributors: Contributor[];
 let { data } = await useFetch<Contributor[]>("https://api.github.com/repos/Mockbukkit/Mockbukkit/contributors");
 
-let filterOut = [
-    "seeseemelk",
-    "TheBusyBiscuit",
-    "thelooter",
-    "Insprill",
-    "Thorinwasher",
-    "4everTheOne",
-    "renovate[bot]",
-    "renovate-bot",
-];
+let filterOut = ["seeseemelk", "TheBusyBiscuit", "thelooter", "Insprill", "Thorinwasher", "4everTheOne", "renovate[bot]", "renovate-bot"];
 
 if (data.value != null) {
     contributors = data.value;
@@ -43,7 +34,7 @@ if (data.value != null) {
 </script>
 
 <template>
-    <div class="bg-neutral-400 dark:bg-neutral-800 p-4">
+    <div class="bg-neutral-400 p-4 dark:bg-neutral-800">
         <h2 class="py-4 text-center text-3xl font-bold dark:text-white">Contributors</h2>
         <div class="mx-auto grid max-w-screen-xl gap-4 pb-8 pt-4 max-md:grid-cols-3 lg:grid-cols-8">
             <a v-for="contributor in contributors" :href="contributor.html_url" target="_blank" rel="noopener noreferrer">

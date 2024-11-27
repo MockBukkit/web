@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -18,7 +19,9 @@
     "nuxt-posthog": "^1.5.4",
     "nuxt-schema-org": "^3.3.9",
     "vue": "^3.4.34",
-    "vue-router": "^4.4.0"
+    "vue-router": "^4.4.0",
+    "prettier": "^3.4.1",
+    "prettier-plugin-tailwindcss": "^0.6.9"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",

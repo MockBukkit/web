@@ -1,36 +1,45 @@
 <script setup lang="ts">
 useSeoMeta({
-    title: 'Mockbukkit | Privacy Policy – Protecting Your Data',
-    description: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
-    ogTitle: 'Mockbukkit | Privacy Policy – Protecting Your Data',
-    ogDescription: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
-    ogSiteName: 'Mockbukkit',
-    ogUrl: 'https://mockbukkit.org',
-    ogType: 'website',
-    ogImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
-    twitterTitle: 'Mockbukkit | Privacy Policy – Protecting Your Data',
-    twitterDescription: 'MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.',
-    twitterImage: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
-    twitterCard: 'summary',
-})
+    title: "Mockbukkit | Privacy Policy – Protecting Your Data",
+    description:
+        "MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.",
+    ogTitle: "Mockbukkit | Privacy Policy – Protecting Your Data",
+    ogDescription:
+        "MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.",
+    ogSiteName: "Mockbukkit",
+    ogUrl: "https://mockbukkit.org",
+    ogType: "website",
+    ogImage: "https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png",
+    twitterTitle: "Mockbukkit | Privacy Policy – Protecting Your Data",
+    twitterDescription:
+        "MockBukkit is a powerful mocking framework for unit testing Bukkit plugins. It provides a comprehensive mock implementation of CraftBukkit, allowing developers to efficiently test their plugins with ease. Explore features like mock players, worlds, and plugins, making your testing more robust and streamlined.",
+    twitterImage: "https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png",
+    twitterCard: "summary",
+});
 </script>
 
 <template>
-    <div class="container max-w-screen-lg dark:text-white mx-auto text-justify">
+    <div class="container mx-auto max-w-screen-lg text-justify dark:text-white">
         <div class="my-8">
-            <h1 class="font-bold text-center text-2xl" id="privacy-policy">Privacy Policy</h1>
-            <p class="text-neutral-500 text-center"><strong>Effective Date:</strong> August 3, 2024</p>
+            <h1 class="text-center text-2xl font-bold" id="privacy-policy">Privacy Policy</h1>
+            <p class="text-center text-neutral-500"><strong>Effective Date:</strong> August 3, 2024</p>
         </div>
-        <p>Thank you for visiting <a class="hover:underline text-green-500" href="https://mockbukkit.org">https://mockbukkit.org</a>. We value your privacy and want to be transparent about the data we
-            collect, how we use it, and your rights regarding your personal information. This Privacy Policy outlines our practices.</p>
+        <p>
+            Thank you for visiting <a class="text-green-500 hover:underline" href="https://mockbukkit.org">https://mockbukkit.org</a>. We value your privacy and
+            want to be transparent about the data we collect, how we use it, and your rights regarding your personal information. This Privacy Policy outlines
+            our practices.
+        </p>
 
         <h2 id="1-general-information">1. General Information</h2>
-        <p>MockBukkit is an open-source project, and we are committed to protecting your privacy. If you have any questions or concerns about our privacy practices,
-            please contact us at <a class="hover:underline text-green-500"  href="mailto:privacy@mockbukkit.org.">privacy@mockbukkit.org.</a></p>
+        <p>
+            MockBukkit is an open-source project, and we are committed to protecting your privacy. If you have any questions or concerns about our privacy
+            practices, please contact us at <a class="text-green-500 hover:underline" href="mailto:privacy@mockbukkit.org.">privacy@mockbukkit.org.</a>
+        </p>
         <h2 id="2-definitions">2. Definitions</h2>
         <ul>
             <li><strong>Personal Data</strong>: Any information relating to an identified or identifiable individual.</li>
-            <li><strong>Usage Data</strong>: Data collected automatically, either generated by the use of the website or from the website infrastructure itself.
+            <li>
+                <strong>Usage Data</strong>: Data collected automatically, either generated by the use of the website or from the website infrastructure itself.
             </li>
         </ul>
         <h2 id="3-data-collection">3. Data Collection</h2>
@@ -46,7 +55,9 @@ useSeoMeta({
         <p>We use cookies and similar tracking technologies to provide essential and performance-related functionalities:</p>
         <ul>
             <li><strong>Essential Cookies</strong>: Necessary for the website to function properly.</li>
-            <li><strong>Performance Cookies</strong>: Help us understand how visitors interact with our website by collecting and reporting information anonymously.
+            <li>
+                <strong>Performance Cookies</strong>: Help us understand how visitors interact with our website by collecting and reporting information
+                anonymously.
             </li>
         </ul>
         <h2 id="6-third-party-services">6. Third-Party Services</h2>
@@ -62,31 +73,44 @@ useSeoMeta({
         <h2 id="11-opt-out">11. Opt-Out</h2>
         <p>If you wish to opt-out of data collection or marketing communications, please contact us at privacy@mockbukkit.org.</p>
         <h2 id="12-data-protection-measures">12. Data Protection Measures</h2>
-        <p>We are committed to ensuring the security of your information. We have implemented the following measures to protect your data against unauthorized
-            access, alteration, disclosure, or destruction:</p>
+        <p>
+            We are committed to ensuring the security of your information. We have implemented the following measures to protect your data against unauthorized
+            access, alteration, disclosure, or destruction:
+        </p>
         <ul>
             <li><strong>SSL/TLS Encryption</strong>: We use SSL/TLS encryption to secure data transmission between your browser and our servers.</li>
-            <li><strong>Firewalls and Intrusion Detection Systems</strong>: We employ firewalls and intrusion detection systems to monitor and protect our network
-                from unauthorized access.
+            <li>
+                <strong>Firewalls and Intrusion Detection Systems</strong>: We employ firewalls and intrusion detection systems to monitor and protect our
+                network from unauthorized access.
             </li>
             <li><strong>Software Updates and Patches</strong>: We regularly update and patch our software to address security vulnerabilities.</li>
             <li><strong>Access Controls</strong>: Access to data is restricted to authorized personnel only.</li>
-            <li><strong>Security Audits and Assessments</strong>: We conduct regular security audits and assessments to identify and mitigate potential risks.</li>
+            <li>
+                <strong>Security Audits and Assessments</strong>: We conduct regular security audits and assessments to identify and mitigate potential risks.
+            </li>
         </ul>
         <h2 id="13-data-storage-locations">13. Data Storage Locations</h2>
-        <p>We use Cloudflare services for our website, and data may be processed and stored on servers located in various regions. Cloudflare adheres to strict data
-            protection and privacy standards.</p>
+        <p>
+            We use Cloudflare services for our website, and data may be processed and stored on servers located in various regions. Cloudflare adheres to strict
+            data protection and privacy standards.
+        </p>
         <h2 id="14-third-party-links">14. Third-Party Links</h2>
-        <p>Our website may contain links to third-party websites. We are not responsible for the privacy practices or the content of these websites. We encourage
-            you to review the privacy policies of any third-party sites you visit.</p>
+        <p>
+            Our website may contain links to third-party websites. We are not responsible for the privacy practices or the content of these websites. We
+            encourage you to review the privacy policies of any third-party sites you visit.
+        </p>
         <h2 id="15-dispute-resolution">15. Dispute Resolution</h2>
-        <p>If you have any concerns or disputes regarding our privacy practices, please contact us at privacy@mockbukkit.org. We will work with you to resolve any
-            issues promptly.</p>
+        <p>
+            If you have any concerns or disputes regarding our privacy practices, please contact us at privacy@mockbukkit.org. We will work with you to resolve
+            any issues promptly.
+        </p>
         <h2 id="16-consent">16. Consent</h2>
         <p>By using our website, you consent to our collection and use of your data as described in this Privacy Policy.</p>
         <h2 id="17-legal-requirements">17. Legal Requirements</h2>
-        <p>We comply with the General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), the Personal Information Protection and
-            Electronic Documents Act (PIPEDA), the Australian Privacy Act 1988, and the Protection of Personal Information Act (POPIA) of South Africa.</p>
+        <p>
+            We comply with the General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), the Personal Information Protection and
+            Electronic Documents Act (PIPEDA), the Australian Privacy Act 1988, and the Protection of Personal Information Act (POPIA) of South Africa.
+        </p>
         <h2 id="18-gdpr-european-union">18. GDPR (European Union)</h2>
         <p>If you are a resident of the European Union, you have the following rights under the GDPR:</p>
         <ul>
@@ -110,10 +134,13 @@ useSeoMeta({
         <p>If you are a resident of Canada, you have the following rights under PIPEDA:</p>
         <ul>
             <li><strong>Right to Access</strong>: You have the right to request access to your personal data.</li>
-            <li><strong>Right to Challenge</strong>: You have the right to challenge the accuracy and completeness of your personal data and have it amended as
+            <li>
+                <strong>Right to Challenge</strong>: You have the right to challenge the accuracy and completeness of your personal data and have it amended as
                 appropriate.
             </li>
-            <li><strong>Right to Withdraw Consent</strong>: You have the right to withdraw your consent at any time, subject to legal or contractual restrictions.
+            <li>
+                <strong>Right to Withdraw Consent</strong>: You have the right to withdraw your consent at any time, subject to legal or contractual
+                restrictions.
             </li>
         </ul>
         <h2 id="21-australian-privacy-act-1988-australia">21. Australian Privacy Act 1988 (Australia)</h2>
@@ -129,8 +156,9 @@ useSeoMeta({
             <li><strong>Right to Correction or Deletion</strong>: You have the right to request the correction or deletion of your personal data.</li>
             <li><strong>Right to Object</strong>: You have the right to object to the processing of your personal data.</li>
             <li><strong>Right to Withdraw Consent</strong>: You have the right to withdraw your consent at any time.</li>
-            <li><strong>Right to Complain</strong>: You have the right to lodge a complaint with the Information Regulator if you believe your rights under POPIA
-                have been infringed.
+            <li>
+                <strong>Right to Complain</strong>: You have the right to lodge a complaint with the Information Regulator if you believe your rights under
+                POPIA have been infringed.
             </li>
         </ul>
         <h2 id="23-childrens-privacy">23. Children&#39;s Privacy</h2>
@@ -138,8 +166,10 @@ useSeoMeta({
         <h2 id="24-policy-updates">24. Policy Updates</h2>
         <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page. Please review it periodically for updates.</p>
         <h2 id="25-contact-information">25. Contact Information</h2>
-        <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at <a href="mailto:privacy@mockbukkit.org">privacy@mockbukkit.org</a>.</p>
-
+        <p>
+            If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at
+            <a href="mailto:privacy@mockbukkit.org">privacy@mockbukkit.org</a>.
+        </p>
     </div>
 </template>
 
@@ -150,15 +180,15 @@ useSeoMeta({
 
 @layer components {
     h2 {
-        @apply text-2xl mt-6 mb-3 font-bold
+        @apply mb-3 mt-6 text-2xl font-bold;
     }
 
     a {
-        @apply hover:underline text-green-500
+        @apply text-green-500 hover:underline;
     }
 
     ul {
-        @apply list-disc ml-8
+        @apply ml-8 list-disc;
     }
 }
 </style>
