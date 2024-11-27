@@ -4,10 +4,8 @@
     <div
         class="mx-auto my-[5rem] flex w-full max-w-screen-xl flex-1 flex-row items-center justify-center max-md:my-[2rem] max-md:mt-4 max-md:w-full max-md:flex-col"
     >
-        <div class="w-full max-w-screen-xl dark:text-white max-md:flex max-md:flex-col max-xl:ml-4 max-md:ml-0">
-            <h1 class="py-2 text-left text-5xl font-semibold max-md:py-0 max-md:text-center max-md:text-2xl">
-                Testing.
-            </h1>
+        <div class="w-full max-w-screen-xl max-xl:ml-4 max-md:ml-0 max-md:flex max-md:flex-col dark:text-white">
+            <h1 class="py-2 text-left text-5xl font-semibold max-md:py-0 max-md:text-center max-md:text-2xl">Testing.</h1>
             <h2
                 class="1 bg-gradient-to-r from-green-500 to-green-300 bg-clip-text py-2 text-left text-5xl font-semibold text-transparent max-md:text-center max-md:text-2xl"
             >
@@ -24,18 +22,12 @@
                     Downloads
                 </button>
                 <a href="https://docs.mockbukkit.org" target="_blank" rel="noopener noreferrer" title="Documentation">
-                    <button
-                        v-if="false"
-                        class="mx-4 rounded-md border-2 border-gray-600 px-5 py-1 transition duration-200 ease-in-out hover:scale-105"
-                    >
+                    <button v-if="false" class="mx-4 rounded-md border-2 border-gray-600 px-5 py-1 transition duration-200 ease-in-out hover:scale-105">
                         Documentation
                     </button>
                 </a>
                 <a href="https://docs.mockbukkit.org" target="_blank" rel="noopener noreferrer" title="Documentation">
-                    <button
-                        v-if="true"
-                        class="rounded-md border-2 border-gray-600 px-5 py-1 transition duration-200 ease-in-out hover:scale-105"
-                    >
+                    <button v-if="true" class="rounded-md border-2 border-gray-600 px-5 py-1 transition duration-200 ease-in-out hover:scale-105">
                         Documentation
                     </button>
                 </a>

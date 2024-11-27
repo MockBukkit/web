@@ -1,29 +1,28 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
-    devtools: {enabled: true},
-    modules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt", "@nuxtjs/robots", "@nuxtjs/sitemap", "nuxt-schema-org", "nuxt-posthog"],
+    devtools: { enabled: true },
+    modules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt", "@nuxtjs/robots", "@nuxtjs/sitemap", "nuxt-schema-org", "@nuxt/eslint"],
 
     site: {
         url: "https://mockbukkit.org",
-        name: "Mockbukkit"
+        name: "Mockbukkit",
     },
 
     schemaOrg: {
         identity: {
-            type: 'Organization',
-            name: 'Mockbukkit',
-            url: 'https://mockbukkit.org',
-            logo: 'https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png',
-            sameAs: [
-                "https://github.com/MockBukkit"
-            ]
-        }
+            type: "Organization",
+            name: "Mockbukkit",
+            url: "https://mockbukkit.org",
+            logo: "https://raw.githubusercontent.com/MockBukkit/MockBukkit/v1.21/logo.png",
+            sameAs: ["https://github.com/MockBukkit"],
+        },
     },
 
     app: {
         head: {
             htmlAttrs: {
-                lang: "en"
+                lang: "en",
             },
             link: [
                 {
@@ -33,16 +32,17 @@ export default defineNuxtConfig({
                 },
                 {
                     rel: "canonical",
-                    href: "https://mockbukkit.org"
+                    href: "https://mockbukkit.org",
                 },
             ],
             title: "MockBukkit | Comprehensive Unit Testing for Minecraft Plugins",
             meta: [
                 {
                     name: "description",
-                    content: "MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools."
-                }
-            ]
+                    content:
+                        "MockBukkit is a framework for unit testing Bukkit plugins, offering versatile mock implementations for easy and effective automated plugin testing tools.",
+                },
+            ],
         },
     },
 
@@ -58,9 +58,7 @@ export default defineNuxtConfig({
     },
 
     robots: {
-        allow: [
-            "/"
-        ]
+        allow: ["/"],
     },
     compatibilityDate: "2024-07-27",
 });

@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { ref, onMounted } from "vue";
+
 interface Contributor {
     login: string;
     id: number;
@@ -21,32 +23,36 @@ interface Contributor {
     contributions: number;
 }
 
-let contributors: Contributor[];
-let { data } = await useFetch<Contributor[]>("https://api.github.com/repos/Mockbukkit/Mockbukkit/contributors");
+const contributors = ref<Contributor[]>([]);
+const filterOut = ["seeseemelk", "TheBusyBiscuit", "thelooter", "Insprill", "Thorinwasher", "4everTheOne", "renovate[bot]", "renovate-bot"];
 
-let filterOut = [
-    "seeseemelk",
-    "TheBusyBiscuit",
-    "thelooter",
-    "Insprill",
-    "Thorinwasher",
-    "4everTheOne",
-    "renovate[bot]",
-    "renovate-bot",
-];
+onMounted(async () => {
+    let page = 1;
+    let allContributors: Contributor[] = [];
+    const perPage = 100;
+    let morePagesAvailable = true;
 
-if (data.value != null) {
-    contributors = data.value;
-    contributors.sort((a, b) => b.contributions - a.contributions);
-    contributors = contributors.filter((contributor) => !filterOut.includes(contributor.login));
-}
+    const uri = "https://api.github.com/repos/Mockbukkit/Mockbukkit/contributors";
+    while (morePagesAvailable) {
+        const { data } = await useFetch<Contributor[]>(`${uri}?per_page=${perPage}&page=${page}`);
+        if (data.value != null && data.value.length > 0) {
+            allContributors = allContributors.concat(data.value);
+            page++;
+        } else {
+            morePagesAvailable = false;
+        }
+    }
+
+    allContributors.sort((a, b) => b.contributions - a.contributions);
+    contributors.value = allContributors.filter((contributor) => !filterOut.includes(contributor.login));
+});
 </script>
 
 <template>
-    <div class="bg-neutral-400 dark:bg-neutral-800 p-4">
+    <div class="bg-neutral-400 p-4 dark:bg-neutral-800">
         <h2 class="py-4 text-center text-3xl font-bold dark:text-white">Contributors</h2>
         <div class="mx-auto grid max-w-screen-xl gap-4 pb-8 pt-4 max-md:grid-cols-3 lg:grid-cols-8">
-            <a v-for="contributor in contributors" :href="contributor.html_url" target="_blank" rel="noopener noreferrer">
+            <a v-for="contributor in contributors" :key="contributor.node_id" :href="contributor.html_url" target="_blank" rel="noopener noreferrer">
                 <img
                     :src="contributor.avatar_url"
                     class="mx-auto h-auto w-20 max-w-screen-xl rounded-full shadow-xl transition duration-200 ease-in-out hover:scale-105"

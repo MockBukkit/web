@@ -47,31 +47,21 @@ const footer_categories = [
                 name: "Legal Notice",
                 url: "/legal",
                 title: "Legal Notice",
-            }
+            },
         ],
-    }
+    },
 ];
 </script>
 
 <template>
     <div class="mx-auto flex max-w-screen-xl flex-col divide-y divide-neutral-500">
-        <div class="flex max-w-screen-xl flex-row max-md:flex-col justify-between">
-            <FooterCategory
-                v-for="category in footer_categories"
-                :title="category.title"
-                :links="category.links"
-            ></FooterCategory>
+        <div class="flex max-w-screen-xl flex-row justify-between max-md:flex-col">
+            <FooterCategory v-for="category in footer_categories" :key="category.title" :title="category.title" :links="category.links"></FooterCategory>
         </div>
         <div class="flex flex-row justify-between py-8 max-md:flex-col max-md:py-4">
-            <img
-                src="../../assets/logo.png"
-                alt="Full Logo"
-                class="h-auto w-1/6 max-md:mx-auto max-md:my-4 max-md:w-2/3 max-xl:ml-4"
-            />
+            <img src="../../assets/logo.png" alt="Full Logo" class="h-auto w-1/6 max-xl:ml-4 max-md:mx-auto max-md:my-4 max-md:w-2/3" />
             <div>
-                <p class="text-sm text-neutral-800 dark:text-neutral-400 max-md:text-center max-xl:mr-4">
-                    © 2024 The MockBukkit Team.
-                </p>
+                <p class="text-sm text-neutral-800 max-xl:mr-4 max-md:text-center dark:text-neutral-400">© 2024 The MockBukkit Team.</p>
             </div>
         </div>
     </div>

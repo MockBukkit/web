@@ -7,7 +7,7 @@ interface Link {
     title: string;
 }
 
-const props = defineProps({
+defineProps({
     title: {
         type: String,
         required: true,
@@ -20,11 +20,11 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="w-40 my-8 text-center max-md:mx-auto max-md:my-2">
+    <div class="my-8 w-40 text-center max-md:mx-auto max-md:my-2">
         <h2 class="my-5 font-bold dark:text-white">{{ title }}</h2>
         <ul>
             <li v-for="link in links" :key="link.name">
-                <a :href="link.url" class="dark:text-neutral-400 dark:hover:text-neutral-200 hover:text-neutral-500" :title="link.title">{{ link.name }}</a>
+                <a :href="link.url" class="hover:text-neutral-500 dark:text-neutral-400 dark:hover:text-neutral-200" :title="link.title">{{ link.name }}</a>
             </li>
         </ul>
     </div>
