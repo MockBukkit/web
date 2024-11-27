@@ -20,11 +20,7 @@ jobs:
             checks: write
         strategy:
             matrix:
-                node-version:
-                    - "18"
-                    - "20"
-                    - "lts/*"
-                    - "latest"
+                node-version: [22]
         steps:
             - uses: actions/checkout@v2
 
