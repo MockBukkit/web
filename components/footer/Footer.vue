@@ -56,7 +56,7 @@ const footer_categories = [
 <template>
     <div class="mx-auto flex max-w-screen-xl flex-col divide-y divide-neutral-500">
         <div class="flex max-w-screen-xl flex-row justify-between max-md:flex-col">
-            <FooterCategory v-for="category in footer_categories" :title="category.title" :links="category.links"></FooterCategory>
+            <FooterCategory v-for="category in footer_categories" :key="category.title" :title="category.title" :links="category.links"></FooterCategory>
         </div>
         <div class="flex flex-row justify-between py-8 max-md:flex-col max-md:py-4">
             <img src="../../assets/logo.png" alt="Full Logo" class="h-auto w-1/6 max-xl:ml-4 max-md:mx-auto max-md:my-4 max-md:w-2/3" />

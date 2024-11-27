@@ -7,7 +7,7 @@ interface Link {
     title: string;
 }
 
-const props = defineProps({
+defineProps({
     title: {
         type: String,
         required: true,

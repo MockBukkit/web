@@ -4,7 +4,9 @@
 </script>
 
 <template>
-    <NavBar></NavBar>
-    <slot />
-    <Footer></Footer>
+    <div>
+        <NavBar></NavBar>
+        <slot />
+        <Footer></Footer>
+    </div>
 </template>

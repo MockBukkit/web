@@ -1,11 +1,23 @@
 <script setup lang="ts">
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-const props = defineProps({
-    name: String,
-    role: String,
-    image: String,
-    github: String,
+defineProps({
+    name: {
+        type: String,
+        required: true,
+    },
+    role: {
+        type: String,
+        required: true,
+    },
+    image: {
+        type: String,
+        required: true,
+    },
+    github: {
+        type: String,
+        required: true,
+    },
 });
 </script>
 

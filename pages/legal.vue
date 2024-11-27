@@ -21,7 +21,7 @@ useSeoMeta({
 <template>
     <div class="container mx-auto max-w-screen-lg text-justify dark:text-white">
         <div class="my-8">
-            <h1 class="text-center text-2xl font-bold" id="legal-notice">Legal Notice</h1>
+            <h1 id="legal-notice" class="text-center text-2xl font-bold">Legal Notice</h1>
             <p class="text-center text-neutral-500"><strong>Effective Date:</strong> August 3, 2024</p>
         </div>
 

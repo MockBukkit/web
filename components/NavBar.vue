@@ -9,13 +9,13 @@
                 </NuxtLink>
                 <!-- Mobile Hamburger -->
                 <button
+                    v-if="isMobile && !isMenuOpen"
                     data-collapse-toggle="navbar-default"
                     type="button"
                     class="navbar-burger in1line-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-center text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                     aria-controls="navbar-default"
                     aria-expanded="false"
                     @click="toggleMenu"
-                    v-if="isMobile && !isMenuOpen"
                 >
                     <span class="sr-only">Open main menu</span>
                     <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -25,7 +25,7 @@
             </div>
 
             <!--Full size menu-->
-            <div v-if="mounted && !isMobile" class="w-full md:block md:w-auto" id="navbar-default">
+            <div v-if="mounted && !isMobile" id="navbar-default" class="w-full md:block md:w-auto">
                 <ul
                     class="mt-4 flex flex-col rounded-lg border border-gray-100 p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0 dark:border-gray-700"
                 >
@@ -82,7 +82,7 @@
                 </ul>
             </div>
             <!--Mobile menu-->
-            <div class="navbar-menu relative z-50" v-if="isMenuOpen">
+            <div v-if="isMenuOpen" class="navbar-menu relative z-50">
                 <div class="navbar-backdrop fixed inset-0 bg-[#666666] opacity-25 dark:bg-[#111111]"></div>
                 <nav class="fixed bottom-0 left-0 top-0 flex w-5/6 max-w-sm flex-col overflow-y-auto bg-[#666666] px-6 py-6 dark:bg-[#111111]">
                     <div class="mb-8 ml-2 flex items-center">

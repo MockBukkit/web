@@ -1,18 +1,9 @@
 <template>
-    <CatchSection></CatchSection>
-    <HighlightSection></HighlightSection>
+    <div>
+        <CatchSection></CatchSection>
+        <HighlightSection></HighlightSection>
+    </div>
 </template>
-
-<style>
-body {
-    background-color: #111111;
-}
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: #dddddd;
-    }
-}
-</style>
 
 <script setup lang="ts">
 const title = "MockBukkit | Comprehensive Unit Testing for Minecraft Plugins";
@@ -35,3 +26,14 @@ useSeoMeta({
     twitterCard: "summary",
 });
 </script>
+
+<style>
+body {
+    background-color: #111111;
+}
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #dddddd;
+    }
+}
+</style>

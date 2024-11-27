@@ -23,7 +23,7 @@ const cards = [
 ];
 
 const loopCards = computed(() => {
-    let localcards = [];
+    const localcards = [];
     for (let i = 1; i < cards.length - 1; i++) {
         localcards.push(cards[i]);
     }
@@ -39,7 +39,14 @@ const loopCards = computed(() => {
         </div>
         <div class="mx-auto my-8 flex max-w-screen-xl flex-row max-lg:flex-col">
             <HighlightCard class="my-2 mr-2 flex-1 max-lg:ml-2" :icon="cards[0].icon" :title="cards[0].title" :text="cards[0].text"></HighlightCard>
-            <HighlightCard v-for="card in loopCards" class="mx-2 my-2 flex-1" :icon="card.icon" :title="card.title" :text="card.text"></HighlightCard>
+            <HighlightCard
+                v-for="card in loopCards"
+                :key="card.title"
+                class="mx-2 my-2 flex-1"
+                :icon="card.icon"
+                :title="card.title"
+                :text="card.text"
+            ></HighlightCard>
             <HighlightCard
                 class="my-2 ml-2 flex-1 max-lg:mr-2"
                 :icon="cards[cards.length - 1].icon"
