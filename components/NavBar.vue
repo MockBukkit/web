@@ -105,28 +105,37 @@
                     <div class="h-full">
                         <ul class="flex h-full flex-col flex-wrap">
                             <li class="mb-8">
-                                <NuxtLink active-class="text-green-500"
-                                    class="block ml-4 text-sm font-semibold dark:text-white hover:bg-blue-50 hover:dark:bg-neutral-800 rounded"
-                                    to="/">
+                                <NuxtLink
+                                    active-class="text-green-500"
+                                    class="ml-4 block rounded text-sm font-semibold hover:bg-blue-50 dark:text-white hover:dark:bg-neutral-800"
+                                    to="/"
+                                >
                                     Home
                                 </NuxtLink>
                             </li>
                             <li class="mb-8">
-                                <NuxtLink active-class="text-green-500"
-                                    class="block ml-4 text-sm font-semibold dark:text-white hover:bg-blue-50 hover:dark:bg-neutral-800 rounded"
-                                    to="/team">
+                                <NuxtLink
+                                    active-class="text-green-500"
+                                    class="ml-4 block rounded text-sm font-semibold hover:bg-blue-50 dark:text-white hover:dark:bg-neutral-800"
+                                    to="/team"
+                                >
                                     Team
                                 </NuxtLink>
                             </li>
                             <li class="mb-8">
-                                <a class="block ml-4 text-sm font-semibold dark:text-white hover:bg-blue-50 hover:dark:bg-neutral-800 rounded"
-                                    href="https://mockbukkit.readthedocs.io/en/v1.21" target="_blank" title="Docs"
-                                    rel="noopener noreferrer">
+                                <a
+                                    class="ml-4 block rounded text-sm font-semibold hover:bg-blue-50 dark:text-white hover:dark:bg-neutral-800"
+                                    href="https://mockbukkit.readthedocs.io/en/v1.21"
+                                    target="_blank"
+                                    title="Docs"
+                                    rel="noopener noreferrer"
+                                >
                                     Docs
                                 </a>
                             </li>
                             <li class="mb-8">
-                                <a class="block ml-4 text-sm font-semibold dark:text-white hover:bg-blue-50 hover:dark:bg-neutral-800 rounded"
+                                <a
+                                    class="ml-4 block rounded text-sm font-semibold hover:bg-blue-50 dark:text-white hover:dark:bg-neutral-800"
                                     href="https://github.com/MockBukkit/MockBukkit/blob/v1.21/CONTRIBUTING.md"
                                     target="_blank"
                                     title="Contribute"
