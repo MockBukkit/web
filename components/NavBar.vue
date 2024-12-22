@@ -107,7 +107,7 @@
                             <li class="mb-8">
                                 <NuxtLink
                                     active-class="text-green-500"
-                                    class="ml-4 block rounded text-sm font-semibold hover:bg-gray-100 dark:text-white"
+                                    class="ml-4 block rounded text-sm font-semibold hover:bg-blue-50 dark:text-white hover:dark:bg-neutral-800"
                                     to="/"
                                 >
                                     Home
@@ -116,7 +116,7 @@
                             <li class="mb-8">
                                 <NuxtLink
                                     active-class="text-green-500"
-                                    class="ml-4 block rounded text-sm font-semibold hover:bg-blue-50 dark:text-white"
+                                    class="ml-4 block rounded text-sm font-semibold hover:bg-blue-50 dark:text-white hover:dark:bg-neutral-800"
                                     to="/team"
                                 >
                                     Team
@@ -124,7 +124,7 @@
                             </li>
                             <li class="mb-8">
                                 <a
-                                    class="ml-4 block rounded text-sm font-semibold hover:bg-gray-100 dark:text-white"
+                                    class="ml-4 block rounded text-sm font-semibold hover:bg-blue-50 dark:text-white hover:dark:bg-neutral-800"
                                     href="https://mockbukkit.readthedocs.io/en/v1.21"
                                     target="_blank"
                                     title="Docs"
@@ -135,7 +135,7 @@
                             </li>
                             <li class="mb-8">
                                 <a
-                                    class="ml-4 block rounded text-sm font-semibold hover:bg-blue-50 dark:text-white"
+                                    class="ml-4 block rounded text-sm font-semibold hover:bg-blue-50 dark:text-white hover:dark:bg-neutral-800"
                                     href="https://github.com/MockBukkit/MockBukkit/blob/v1.21/CONTRIBUTING.md"
                                     target="_blank"
                                     title="Contribute"
