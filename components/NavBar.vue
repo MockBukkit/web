@@ -125,7 +125,7 @@
                             <li class="mb-8">
                                 <a
                                     class="ml-4 block rounded text-sm font-semibold hover:bg-blue-50 dark:text-white hover:dark:bg-neutral-800"
-                                    href="https://mockbukkit.readthedocs.io/en/v1.21"
+                                    href="https://docs.mockbukkit.org"
                                     target="_blank"
                                     title="Docs"
                                     rel="noopener noreferrer"
