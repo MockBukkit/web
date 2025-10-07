@@ -41,7 +41,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@vueuse/core": "^12.1.0",
-    "@vueuse/nuxt": "^12.1.0",
+    "@vueuse/nuxt": "^12.8.2",
     "posthog-js": "^1.203.1"
   },
   "packageManager": "pnpm@9.6.0"
