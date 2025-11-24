@@ -26,5 +26,3 @@ useSeoMeta({
     twitterCard: "summary",
 });
 </script>
-
-
