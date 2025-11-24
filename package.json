@@ -44,5 +44,5 @@
     "@vueuse/nuxt": "^12.8.2",
     "posthog-js": "^1.275.3"
   },
-  "packageManager": "pnpm@9.6.0"
+  "packageManager": "pnpm@10.23.0"
 }
