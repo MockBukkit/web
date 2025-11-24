@@ -27,11 +27,11 @@ importers:
         specifier: ^12.8.2
         version: 12.8.2(magicast@0.5.1)(nuxt@3.20.1(@parcel/watcher@2.5.1)(@vue/compiler-sfc@3.5.25)(db0@0.3.4)(eslint@9.39.1(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.4(jiti@2.6.1)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1))(typescript@5.9.3)
       posthog-js:
-        specifier: ^1.275.3
+        specifier: ^1.298.0
         version: 1.298.0
     devDependencies:
       '@eslint/js':
-        specifier: ^9.37.0
+        specifier: ^9.39.1
         version: 9.39.1
       '@nuxt/devtools':
         specifier: ^1.7.0
@@ -40,7 +40,7 @@ importers:
         specifier: ^0.7.6
         version: 0.7.6(@typescript-eslint/utils@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.25)(eslint@9.39.1(jiti@2.6.1))(magicast@0.5.1)(typescript@5.9.3)(vite@7.2.4(jiti@2.6.1)(terser@5.44.1)(yaml@2.8.1))
       '@nuxtjs/robots':
-        specifier: ^5.5.5
+        specifier: ^5.5.6
         version: 5.5.6(h3@1.15.4)(magicast@0.5.1)(vue@3.5.25(typescript@5.9.3))
       '@nuxtjs/sitemap':
         specifier: 7.0.0
@@ -49,7 +49,7 @@ importers:
         specifier: ^6.14.0
         version: 6.14.0(magicast@0.5.1)(yaml@2.8.1)
       eslint:
-        specifier: ^9.37.0
+        specifier: ^9.39.1
         version: 9.39.1(jiti@2.6.1)
       eslint-config-prettier:
         specifier: ^9.1.2
@@ -64,7 +64,7 @@ importers:
         specifier: ^15.15.0
         version: 15.15.0
       nuxt:
-        specifier: ^3.19.3
+        specifier: ^3.20.1
         version: 3.20.1(@parcel/watcher@2.5.1)(@vue/compiler-sfc@3.5.25)(db0@0.3.4)(eslint@9.39.1(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.53.3)(terser@5.44.1)(typescript@5.9.3)(vite@7.2.4(jiti@2.6.1)(terser@5.44.1)(yaml@2.8.1))(yaml@2.8.1)
       nuxt-posthog:
         specifier: ^1.6.3
@@ -79,13 +79,13 @@ importers:
         specifier: ^0.6.14
         version: 0.6.14(prettier@3.6.2)
       typescript-eslint:
-        specifier: ^8.46.1
+        specifier: ^8.48.0
         version: 8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       vue:
-        specifier: ^3.5.22
+        specifier: ^3.5.25
         version: 3.5.25(typescript@5.9.3)
       vue-router:
-        specifier: ^4.6.2
+        specifier: ^4.6.3
         version: 4.6.3(vue@3.5.25(typescript@5.9.3))
 
 packages:
