@@ -23,7 +23,7 @@ defineProps({
 
 <template>
     <div
-        class="mx-auto my-2 rounded bg-white bg-gradient-to-b from-green-500 to-green-400 p-2 text-center shadow-xl transition duration-200 ease-in-out hover:scale-105 max-md:mx-6 dark:from-green-800 dark:to-green-700"
+        class="h-full flex flex-col rounded bg-green-500 bg-gradient-to-b from-green-500 to-green-400 p-2 text-center shadow-xl transition duration-200 ease-in-out hover:scale-105 max-md:mx-6 dark:bg-green-800 dark:from-green-800 dark:to-green-700"
     >
         <img class="mx-auto mt-4 w-1/3 rounded-full shadow-xl max-md:w-1/4" :src="image" alt="pic" />
         <h2 class="mt-2 text-lg font-bold dark:text-white">{{ name }}</h2>

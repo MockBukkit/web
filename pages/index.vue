@@ -27,13 +27,4 @@ useSeoMeta({
 });
 </script>
 
-<style>
-body {
-    background-color: #111111;
-}
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: #dddddd;
-    }
-}
-</style>
+
