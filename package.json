@@ -29,7 +29,7 @@
     "nuxt": "^4.4.8",
     "nuxt-posthog": "^1.6.3",
     "nuxt-schema-org": "^6.2.3",
-    "prettier": "^3.9.4",
+    "prettier": "^3.9.3",
     "prettier-plugin-tailwindcss": "^0.8.0",
     "typescript-eslint": "^8.62.1",
     "vue": "^3.5.39",
@@ -42,9 +42,9 @@
     "@fortawesome/vue-fontawesome": "^3.3.0",
     "@vueuse/core": "^14.3.0",
     "@vueuse/nuxt": "^14.3.0",
-    "posthog-js": "^1.396.3"
+    "posthog-js": "^1.396.2"
   },
-  "packageManager": "pnpm@10.23.0",
+  "packageManager": "pnpm@11.9.0",
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
   }
