@@ -15,34 +15,37 @@
     "lint:report": "eslint --output-file=eslint_report.json --format json ."
   },
   "devDependencies": {
-    "@eslint/js": "^9.37.0",
-    "@nuxt/devtools": "^1.7.0",
-    "@nuxt/eslint": "^0.7.6",
-    "@nuxtjs/robots": "^5.5.5",
-    "@nuxtjs/sitemap": "7.0.0",
+    "@eslint/js": "^10.0.1",
+    "@nuxt/devtools": "^3.2.4",
+    "@nuxt/eslint": "^1.16.0",
+    "@nuxtjs/robots": "^6.1.2",
+    "@nuxtjs/sitemap": "8.2.2",
     "@nuxtjs/tailwindcss": "^6.14.0",
-    "eslint": "^9.37.0",
-    "eslint-config-prettier": "^9.1.2",
-    "eslint-plugin-prettier": "^5.5.4",
-    "eslint-plugin-vue": "^9.33.0",
-    "globals": "^15.15.0",
-    "nuxt": "^3.19.3",
+    "eslint": "^10.6.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "eslint-plugin-vue": "^10.9.2",
+    "globals": "^17.7.0",
+    "nuxt": "^4.4.8",
     "nuxt-posthog": "^1.6.3",
-    "nuxt-schema-org": "^4.1.3",
-    "prettier": "^3.6.2",
-    "prettier-plugin-tailwindcss": "^0.6.14",
-    "typescript-eslint": "^8.46.1",
-    "vue": "^3.5.22",
-    "vue-router": "^4.6.2"
+    "nuxt-schema-org": "^6.2.3",
+    "prettier": "^3.9.3",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "typescript-eslint": "^8.62.1",
+    "vue": "^3.5.39",
+    "vue-router": "^4.6.4"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.7.2",
-    "@fortawesome/free-brands-svg-icons": "^6.7.2",
-    "@fortawesome/free-solid-svg-icons": "^6.7.2",
-    "@fortawesome/vue-fontawesome": "^3.1.2",
-    "@vueuse/core": "^12.8.2",
-    "@vueuse/nuxt": "^12.8.2",
-    "posthog-js": "^1.275.3"
+    "@fortawesome/fontawesome-svg-core": "^7.3.0",
+    "@fortawesome/free-brands-svg-icons": "^7.3.0",
+    "@fortawesome/free-solid-svg-icons": "^7.3.0",
+    "@fortawesome/vue-fontawesome": "^3.3.0",
+    "@vueuse/core": "^14.3.0",
+    "@vueuse/nuxt": "^14.3.0",
+    "posthog-js": "^1.396.2"
   },
-  "packageManager": "pnpm@10.23.0"
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
 }

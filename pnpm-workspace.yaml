@@ -1,0 +1,14 @@
+# pnpm 11 reads pnpm-specific settings from here, not from .npmrc.
+shamefullyHoist: true
+strictPeerDependencies: false
+
+# pnpm 11 requires every dependency with an install/build script to be
+# explicitly allowed or denied (strictDepBuilds defaults to true).
+# These native/optional build scripts are intentionally NOT run: the project
+# builds, generates and runs without them (esbuild ships its binary via an
+# optional platform package; the watcher/resolver fall back gracefully).
+allowBuilds:
+  "@parcel/watcher": false
+  core-js: false
+  esbuild: false
+  unrs-resolver: false
