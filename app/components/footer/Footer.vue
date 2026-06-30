@@ -20,7 +20,7 @@ const footer_categories = [
         links: [
             {
                 name: "Discord",
-                url: "https://discord.gg/3QwzKZs",
+                url: "https://discord.gg/Xunsn6D8MB",
                 title: "Discord",
             },
             {
